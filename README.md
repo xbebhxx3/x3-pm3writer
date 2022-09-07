@@ -29,4 +29,3 @@ proxmark3(pm3)ic(1k)写入卡工具
 # 编译环境
 MinGW64（g++）
 
-添加 -std=gnu++11 -lgdi32 -lwsock32
