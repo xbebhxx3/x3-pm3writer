@@ -502,7 +502,7 @@ char gn[1000];
 int main(int argc, char** argv) {
 	if(argc==1){
 		printf("x3-pm3writer.exe PortName FileName PasswordFile [A/B]\n");
-		printf("proxmark3(pm3)ic(1k)卡写入工具  v1.0\n");
+		printf("x  v1.0\n");
 		printf("目前仅支持1k卡,其他容量将在后续版本支持\n");
 		printf("邮箱:admin@n103.top\n");
 		printf("官网:www.n103.top\n");
@@ -510,7 +510,7 @@ int main(int argc, char** argv) {
 		printf(" PortName\tproxmark3(pm3)端口\n");
 		
 		printf(" FileName\t数据文件\n");
-		printf(" FileName\t包含密码的文件,为d则使用默认密码,为f则使用待写入文件中的密码\n");
+		printf(" FileName\t包含密码的文件,为d则使用默认密码,为f则使用数据文件中的密码\n");
 		printf(" [A/B]\t(可选)使用Key A或Key B\n");
 	}
 	else {
